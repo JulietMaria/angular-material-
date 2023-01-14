@@ -1,0 +1,28 @@
+/* Add application styles & imports to this file! */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "font.css";
+
+body {
+  font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'brands' !important;
+}
+.icon-angular:before {
+  content: "\e900";
+  color: #dd0031;
+}
+.icon-facebook:before {
+  content: "\e901";
+  color: #3b5998;
+}
+.icon-google:before {
+  content: "\e902";
+  color: #4285f4;
+}
+.icon-microsoft:before {
+  content: "\e903";
+  color: #666;
+}

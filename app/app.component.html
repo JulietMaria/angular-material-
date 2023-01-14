@@ -1,0 +1,35 @@
+<div>
+  <h1>GeeksforGeeks</h1>
+  <h3>Angular Material Menu</h3>
+  <button mat-button [matMenuTriggerFor]="menu1">CSS Menu</button>
+  <mat-menu #menu1="matMenu">
+    <button mat-menu-item>Material UI</button>
+    <button mat-menu-item>Tailwind Css</button>
+    <button mat-menu-item>Bootstrap</button>
+  </mat-menu>
+  <br />
+  <br />
+  <h1>GeeksforGeeks</h1>
+  <h3>Angular Material Icon Menu</h3>
+  <button
+    mat-icon-button
+    [matMenuTriggerFor]="menu2"
+    aria-label="Example icon-button with a menu"
+  >
+    <mat-icon>list</mat-icon>
+  </button>
+  <mat-menu #menu2="matMenu">
+    <button mat-menu-item>
+      <mat-icon>thumb_up</mat-icon>
+      <span>Thumbs up</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>thumb_down</mat-icon>
+      <span>Thumbs down</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>info</mat-icon>
+      <span>Info</span>
+    </button>
+  </mat-menu>
+</div>
